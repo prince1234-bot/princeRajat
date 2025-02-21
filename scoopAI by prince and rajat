@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoop AI</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    background-color: #0a0b1a;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    font-weight: bold;
+    color: rgb(156, 7, 156);
+    font-size: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #0a0b1a;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.menu a:hover {
+    color: darkblue;
+}
+
+.demo {
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.demo:hover {
+    background-color: #0a0b1a;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1;
+    max-width: 50%;
+    margin-right: 20px;
+}
+
+.box2 {
+    flex: 1;
+    max-width: 50%;
+    text-align: center;
+
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.box h1 {
+    font-size: 2rem;
+    color:rgb(156, 7, 156);
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.img1{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.list1{
+    color: white;
+    size: 0.5 rem;
+}
+.container2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: 50px;
+}
+.box4{
+    flex: 1;
+    width: 50%;
+}
+.box5{
+    flex: 1;
+    width: 50%;
+}
+.box3{
+    flex: 1;
+    border: none;
+    width: 25%;
+    color: beige;
+    text-align: center;
+    border-radius: 1px solid black;
+}
+.box3 {
+    flex: 1;
+    text-align: center;
+    color: beige;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #0a0b1a;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ss{
+    transition: all 3sec ease;
+}
+.li1:hover+.ss{
+    content: url(start3.jpg);
+}
+.li2:hover+.ss{
+    content: url(start4.jpg);
+}
+.li3:hover+.ss{
+    content: url(start5.jpg);
+}
+.li4:hover+.ss{
+    content: url(start6.jpg);
+}
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <p>Scoop AI</p>
+        </div>
+        <nav class="menu">
+            <a href="#">Features</a>
+            <a href="#">Contact</a>
+            <div class="demo">View Demo</div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h1>Revolutionize the market with Scoop AI</h1>
+            <ul class="list1">
+                <li>Leverage advanced AI algorithms to analyze market trends and generate actionable insights for better decision-making.</li>
+                <li>Scoop AI processes and visualizes real-time data, ensuring you're always one step ahead in the fast-paced market environment.</li>
+                <li>Tailor your analytics experience with customizable dashboards that highlight the metrics most relevant to your business.
+
+                </li>
+                <li>Whether you're a startup or an enterprise, Scoop AI offers scalable, secure, and flexible solutions that grow with your business.</li>
+            </ul>
+        </div>
+        <div class="box2">
+            <img class="img1" src="start0.jpg" alt="Scoop AI demo">
+        </div>
+    </div>
+    <div class="container2">
+        <div class="box3">10k+</div>
+        <div class="box3">100+</div>
+        <div class="box3">1M+ datapoints</div>
+        <div class="box3">5+ ratings</div>
+    </div>
+    <div class="container3">
+        <h1>
+            Powerfull features
+        </h1>
+        <div class="box4">
+            <ul>
+            <li class="li1">Market Analysis</li>
+            <li class="li2">Competitor</li>
+            <li class="li3">Mentor Stratergies</li>
+            <li class="li4">User research</li>
+        </ul>
+    </div>
+      <div class="box5">
+        <img class="ss" src="start1.jpg" alt="start1">
+      </div>
+    </div>
+</body>
+</html>
